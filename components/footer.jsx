@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="flex gap-20">
           <ul className=" flex flex-col gap-4">
             <p className="text-gray-400 mb-6">Company</p>
-            <li>About us</li>
+            <li className="font-extralight">About us</li>
             <li>Contact us</li>
             <li>Careers</li>
             <li>Press</li>

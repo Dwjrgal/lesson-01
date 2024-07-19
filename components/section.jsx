@@ -1,6 +1,6 @@
 const Section = () => {
   return (
-    <section className="flex gap-40 px-20 py-10">
+    <section className="flex gap-40 px-20 py-10 pb-40 pt-20">
       <div className="flex flex-col gap-6">
         <h5 className="text-red-600">Let’s shift your business</h5>
         <h3 className="text-4xl font-bold ">
