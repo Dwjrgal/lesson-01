@@ -8,13 +8,15 @@ const Header = () => {
         backgroundColor: "#333",
       }}
     >
-      <h1>Brainwave.io</h1>
-      <ul className="menu">
-        <li>Demos</li>
-        <li>Pages</li>
-        <li>Support</li>
-        <li>Contact</li>
-      </ul>
+      <div className="nav">
+        <h1>Brainwave.io</h1>
+        <ul className="menu">
+          <li>Demos</li>
+          <li>Pages</li>
+          <li>Support</li>
+          <li>Contact</li>
+        </ul>
+      </div>
       <button>Get started a project</button>
     </header>
   );

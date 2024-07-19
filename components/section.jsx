@@ -1,13 +1,23 @@
 const Section = () => {
   return (
-    <section>
-      <div className="content">
-      <h5>Let’s shift your business</h5>
-      <h3>Shift your business <br />fast with Shade Pro.</h3>
-      <p>With lots of unique blocks, you can easily build a page <br /> without coding. Build your next consultancy website within <br /> few minutes.</p>
-      <button>Get started a project</button>
+    <section className="flex gap-40">
+      <div className="flex flex-col gap-6">
+        <h5 className="text-red-600">Let’s shift your business</h5>
+        <h3 className="text-3xl font-bold ">
+          Shift your business <br />
+          fast with Shade Pro.
+        </h3>
+        <p>
+          With lots of unique blocks, you can easily build a page <br /> without
+          coding. Build your next consultancy website within <br /> few minutes.
+        </p>
+        <button>Get started a project</button>
       </div>
-      <img src="" alt="" />
+      <img
+        className="rounded-full h-80 w-80"
+        src="https://images.unsplash.com/photo-1721205834757-c69d5def190a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfGoyemVjNmtkOVZrfHxlbnwwfHx8fHw%3D"
+        alt=""
+      />
     </section>
   );
 };
