@@ -1,15 +1,15 @@
 const Section = () => {
   return (
-    <section className="flex gap-40">
+    <section className="flex gap-40 px-20 py-10">
       <div className="flex flex-col gap-6">
         <h5 className="text-red-600">Let’s shift your business</h5>
-        <h3 className="text-3xl font-bold ">
+        <h3 className="text-4xl font-bold ">
           Shift your business <br />
           fast with Shade Pro.
         </h3>
         <p>
-          With lots of unique blocks, you can easily build a page <br /> without
-          coding. Build your next consultancy website within <br /> few minutes.
+          With lots of unique blocks, you can easily build a page without
+          coding.Build your next consultancy website within few minutes.
         </p>
         <button>Get started a project</button>
       </div>
