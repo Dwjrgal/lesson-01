@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
         <button>Get started a project</button>
       </div>
-      <div className="flex items-center pb-40 ">
-        <div className="flex flex-col   px-20 mb-[30px]">
+      <div className="flex items-center pb-40  border-t-2 border-stone-600 px-4 pt-[20px]">
+        <div className="flex flex-col  px-20 mb-[98px]">
           <h1 className="font-bold text-xl mb-10">Brainwave.io</h1>
           <p className="font-extralight text-gray-400">
             With lots of unique blocks, you can <br />
